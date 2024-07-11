@@ -1,0 +1,170 @@
+ /* src/Products.css
+
+.products-container {
+  padding: 20px;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  padding: 15px;
+}
+
+.product-info h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+}
+
+.product-info p {
+  margin: 0 0 10px;
+}
+
+.product-price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+.product-card img{
+  height: 300px;
+  width: 100%;
+ } */
+
+ /* src/Products.css */
+
+/* .products-container {
+  padding: 20px;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.filter-container label {
+  margin-right: 10px;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  padding: 15px;
+}
+
+.product-info h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+}
+
+.product-info p {
+  margin: 0 0 10px;
+}
+
+.product-price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+} */
+/* src/Products.css */
+
+ /* Add this CSS to your project */
+.products-page {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  /* height: 100%; */
+  padding: 20px;
+  background-color: #f4f4f4;
+  /* position: fixed; */
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.sidebar li:hover {
+  text-decoration: underline;
+}
+
+.products-container {
+  flex: 1;
+  padding: 20px; 
+}
+
+.filter-container,
+.search {
+  margin-bottom: 20px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  margin-top: 10px;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #ff5722;
+}
